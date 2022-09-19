@@ -8,6 +8,9 @@ TagManager:
   - Sky
   - Land
   - Boost
+  - BestDistance
+  - Current Distance
+  - Barrel
   layers:
   - Default
   - TransparentFX
@@ -15,8 +18,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Cannon
+  - Player
   - 
   - 
   - 

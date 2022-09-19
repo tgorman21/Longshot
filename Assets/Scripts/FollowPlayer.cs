@@ -9,7 +9,6 @@ public class FollowPlayer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
     }
 
     // Update is called once per frame
@@ -22,7 +21,7 @@ public class FollowPlayer : MonoBehaviour
         }
         else if (gameObject.CompareTag("Ground"))
         {
-            this.transform.position = new Vector3(player.position.x + offset.x, this.transform.position.y, offset.z);
+            transform.position = new Vector2(player.position.x + offset.x, transform.position.y + offset.y);
         }
     }
 }
